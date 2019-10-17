@@ -1,0 +1,222 @@
+body{
+    font-size: 16px;
+    background-color: #406303;
+    margin: unset;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    position: relative;
+
+}
+div{
+    display: block;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+li{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h4 {
+    margin: unset;
+}
+/*site*/
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.site-wrapper{
+    margin-bottom: 50px;
+    background-color: #ffc;
+    max-width: 980px;
+    border-top: none;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    border-left: 0 solid rgba(0,0,0,.15);
+    border-right: 0 solid rgba(0,0,0,.15);
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 24px rgba(0,0,0,.8);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*header*/
+.header-wrapper{
+    color: #205900;
+    background-color: #ddef8b;
+}
+.header-wrapper .navbar{
+    margin-right: -20px;
+    margin-left: -20px;
+    width: unset;
+    position: relative;
+
+}
+.header-wrapper .title-wrapper{
+    padding: 30px 0;
+}
+.header-wrapper .navbar .navbar-inner > .container{
+    padding-right: 0;
+    padding-left: 0;
+    width: auto;
+}
+.header-wrapper .nav-collapse{
+    position: static;
+}
+.header-wrapper .navbar-compact{
+    float: none;
+}
+.header-wrapper .navbar.navbar-compact{
+    height: 35px;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+.title{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: #205900;
+    font-size: 47px;
+    letter-spacing: 0;
+    padding: 6px 0;
+    font-weight: 700;
+}
+.subtitle{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: #205900;
+    font-size: 22px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+.title-wrapper{
+    background-color: rgba(0,0,0,0);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*nav*/
+
+.navbar {
+    font-size: 16px;
+    background-color: #bcd931;
+    font-weight: 400;
+}
+.nav-collapse{
+    background-color: #bcd931;
+}
+.navbar .nav{
+    display: block;
+    left: 0;
+    margin: 0 10px 0 0;
+    list-style: none;
+}
+.navbar .nav>.active{
+    box-shadow: 0 0 0;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar .nav > li{
+    float: left;
+}
+.navbar .nav > li > a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 35px;
+}
+.navbar li.active > a{
+    font-weight: 700;
+}
+
+/*content*/
+.gird-container{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 195px 195px 195px 195px;
+    grid-template-areas:
+            "left left left right"
+}
+#left{
+    grid-area: left;
+}
+.content-wrapper{
+    color: #000;
+    background-color: #ffc;
+}
+#right{
+    grid-area: right;
+    padding-top: 30px;
+}
+.content-wrapper > .container > .content-inner{
+    padding-bottom: 22px;
+}
+.row-fluid{
+    width: 100%;
+}
+.section >.heading{
+    font-size: 28px;
+}
+#left > div > div > div:nth-child(1) > div.content > a{
+    text-decoration: underline;
+}
+
+
+/*share*/
+.share-box{
+    border-radius: 10px;
+    background: #f8fdc4;
+    box-shadow: 0 2px 10px rgba(0,0,0, .29);
+}
+.viral-box{
+    margin-top: 30px;
+    border-radius: 10px;
+    background: #f8fdc4;
+    box-shadow: 0 2px 10px rgba(0,0,0, .29);
+}
+.share-box > .heading {
+    padding: 11px 15px;
+}
+.share-box > .content{
+    padding: 11px 15px;
+}
+.share-box > .content > span > ul > li > a{
+    text-decoration: underline;
+}
+.viral-box > .heading {
+    padding: 11px 15px;
+}
+.viral-box > .content{
+    padding: 11px 15px;
+}
+.viral-box > .content > p{
+    margin: unset;
+}
+.viral-box > .content > .bottom{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.viral-box > .content > .bottom > a{
+    color: white;
+    padding: 10px;
+    background-color: #205900;
+    border-radius: 20px;
+}
+.share-box > .content > span > ul {
+    margin: unset;
+}
+
+.share-box > .heading > h4{
+    margin: unset;
+    font-size: 20px;
+}

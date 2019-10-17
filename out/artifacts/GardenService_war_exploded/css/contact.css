@@ -1,0 +1,29 @@
+textarea{
+    width: 100%;
+}
+p{
+    font-size: 14px;
+}
+input{
+    width: 49%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 32px;
+    box-sizing: border-box;
+}
+.contact{
+    border-bottom: 3px dotted rgba(0,0,0,.29);
+}
+.infomation{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.send-button{
+    height: 32px;
+    background-color: #406303;
+    border-radius: 10px;
+    color: white;
+    float: right;
+    margin: 10px;
+}

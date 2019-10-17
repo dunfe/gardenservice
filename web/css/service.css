@@ -1,0 +1,27 @@
+.content{
+    display: flex;
+    flex-direction: column;
+}
+body > div > div > div.grid-item.main > div > div:nth-child(even) > div.service-content > div.full-image{
+    float: right;
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+body > div > div > div.grid-item.main > div > div:nth-child(odd) > div.service-content > div.full-image{
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.full-service-name{
+    padding: 10px;
+}
+.full-service-name > a{
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.full-service-description{
+    display: inline;
+}

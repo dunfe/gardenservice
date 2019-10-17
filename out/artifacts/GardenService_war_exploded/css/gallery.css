@@ -1,0 +1,32 @@
+button{
+    margin: 5px;
+    color: white;
+    background-color: #406303;
+}
+.next{
+    position: static ;
+    right: 0;
+}
+.gallery-content{
+    position: relative;
+}
+
+.mySlides > img{
+    width: 100%;
+}
+.mySlides{
+    display: none;
+}
+.cursor{
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    flex-grow: 4;
+    flex-wrap: wrap;
+}
+.column{
+    width: 20%;
+    padding: 15px;
+    justify-content: space-around;
+}
